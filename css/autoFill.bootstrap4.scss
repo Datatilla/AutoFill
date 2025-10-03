@@ -1,10 +1,11 @@
 
-$autofill-define-button: false;
-$autofill-outline: #0275d8;
 $autofill-handle-border: 1px solid #0275d8;
-$autofill-handle-background: #0275d8;
 
-@import 'autoFill.dataTables.scss';
+@use 'autoFill.dataTables.scss' with (
+  $autofill-define-button: false,
+  $autofill-outline: #0275d8,
+  $autofill-handle-background: #0275d8
+);
 
 div.dt-autofill-list {
 	div.dt-autofill-question {

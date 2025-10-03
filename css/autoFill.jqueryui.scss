@@ -1,7 +1,6 @@
 
-$autofill-define-button: false;
 
-@import 'autoFill.dataTables.scss';
+@use 'autoFill.dataTables.scss' with ($autofill-define-button: false);
 
 div.dt-autofill-list {
 	button {
