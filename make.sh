@@ -45,7 +45,7 @@ js_frameworks autoFill $OUT_DIR/js "jquery datatables.net-FW datatables.net-auto
 
 # Copy Types
 if [ -d $OUT_DIR/types ]; then
-	rm -r $OUT_DIR/types		
+	rm -r $OUT_DIR/types
 fi
 mkdir $OUT_DIR/types
 
